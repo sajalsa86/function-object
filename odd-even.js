@@ -1,6 +1,6 @@
 
 //Check even and odd number using function
-//% symble k remainder ot modulus bole
+//% symble k remainder or modulus bole
 
 // const myNumber = 4;
 // const remainder = myNumber % 2;//or

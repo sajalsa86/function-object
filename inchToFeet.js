@@ -33,3 +33,15 @@ function mileToKilometer(miles) {
 let myMiles = 5;
 const resultKM = mileToKilometer(myMiles);
 console.log('My miles to KM is : ', resultKM, 'kilo');
+
+//celcius to farenheit
+// 1 celcius = 33.8 farenheit
+function celsiusToFahrenheit(celsius) {
+    const fahrenheit = (celsius * 9 / 5) + 32;
+    return fahrenheit;
+}
+
+// Example usage:
+let inputCelsius = 25;
+const outputfahrenheit = celsiusToFahrenheit(inputCelsius);
+console.log(inputCelsius + " degrees Celsius is equal to " + outputfahrenheit + " degrees Fahrenheit.");
